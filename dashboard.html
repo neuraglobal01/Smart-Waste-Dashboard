@@ -186,15 +186,28 @@
     </div>
     <button class="btn btn-primary">Submit</button>
   </form>
-
-  <!-- Developer Info -->
-  <h4 class="section-title" data-aos="fade-right">Developer Information</h4>
-  <div class="card p-3 mb-5" data-aos="fade-up">
-    <p><strong>Developed by:</strong> Neuraglobal</p>
-    <p><strong>Contact:</strong> neuraglobalindia@gmail.com</p>
-    <p><a href="https://pandi7010.github.io/neura-global/"><strong>Website link</strong></a></p>
+  <h4 class="section-title" data-aos="fade-right"></h4>
+  <!-- Footer -->
+<footer class="bg-dark text-white py-4">
+  <div class="container text-center">
+    <p class="mb-0">&copy; 2025 Smart Waste Monitoring Portal. All Rights Reserved.</p>
+    <p class="watermark mt-2">Developed by <a href="mailto:neuraglobalindia@gmail.com" class="text-white">Neuraglobal</a></p>
   </div>
-</div>
+</footer>
+
+<style>
+  .watermark {
+    font-size: 0.7rem;
+    opacity: 0.6;
+    margin-top: 5px;
+  }
+  .watermark a {
+    text-decoration: none;
+  }
+  .watermark a:hover {
+    text-decoration: underline;
+  }
+</style>
 
 <script>
   document.getElementById("username").textContent = localStorage.getItem("loggedInUser") || "Saravanan";
